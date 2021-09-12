@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "linked_list.h"
 
+
+
 /* returns a new node whose data is set to DATA and next is set to NULL */
 Node *create_node(int data) {
     struct Node *new_node = malloc(sizeof(struct Node));
