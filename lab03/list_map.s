@@ -33,7 +33,7 @@ main:
 
     # Load function arguments
     add a0, s0, x0 # Loads the address of the first node into a0
-    
+
     # Load the address of the "decrement" function into a1 (should be very similar to before)
     ### YOUR CODE HERE ###
 

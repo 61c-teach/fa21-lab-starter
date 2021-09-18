@@ -21,4 +21,4 @@ exit:       lw ra 8(sp)
             lw s0 4(sp)
             lw s1 0(sp)
             addi sp sp 12
-            jr ra 
+            jr ra
