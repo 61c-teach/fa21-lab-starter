@@ -18,7 +18,7 @@ main:
     li s1, 2910
     # ... skipping middle registers so the file isn't too long
     # If we wanted to be rigorous, we would add checks for
-    # s2-s20 as well
+    # s2-s10 as well
     li s11, 134
     # Now, we call some functions
     # simple_fn: should return 1
@@ -97,9 +97,7 @@ naive_pow_end:
 # address as argument and increments the 32-bit value stored there.
 inc_arr:
     # BEGIN PROLOGUE
-    #
     # FIXME What other registers need to be saved?
-    #
     addi sp, sp, -4
     sw ra, 0(sp)
     # END PROLOGUE
