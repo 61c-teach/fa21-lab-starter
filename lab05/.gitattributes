@@ -1,0 +1,2 @@
+/tests/reference-output/*.out text eol=lf
+/tests/student-output/*.out text eol=lf
