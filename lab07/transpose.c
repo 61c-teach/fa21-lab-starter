@@ -10,7 +10,7 @@ void transpose_naive(int n, int blocksize, int *dst, int *src) {
 }
 
 /* Implement cache blocking below. You should NOT assume that n is a
- * multiple of the block size. */
+ * multiple of the block size. */ 
  void transpose_blocking(int n, int blocksize, int *dst, int *src) {
      // YOUR CODE HERE
  }
